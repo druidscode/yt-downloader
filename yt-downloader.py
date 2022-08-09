@@ -28,11 +28,11 @@ if yesno=="y":
     filepath=input("Enter the path where you want to save, without quotations: "+'')
     print("Download started in the background, do not close the program.")
     yd.download(filepath)
-    print("Download Completed!"+"\n"+"Exiting in 5 seconds")
+    print("Download Completed! Exiting in 5 seconds")
     time.sleep(5)
 elif yesno=="n":
-    print("Download Terminated!"+"\n"+"Exiting in 5 seconds")
+    print("Download Terminated! Exiting in 5 seconds")
     time.sleep(5)
 else:
-    print("Please restart the program!"+"\n"+"Exiting in 5 seconds")
+    print("Please restart the program! Exiting in 5 seconds")
     time.sleep(5)
