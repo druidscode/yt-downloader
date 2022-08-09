@@ -28,7 +28,7 @@ yd=yt.streams.get_highest_resolution()
 yesno=input("Press "+"y"+" to download and "+"n"+" to cancel."+"\n")
 
 if yesno=="y":
-    filepath=input("Enter the path where you want to save without quotations: "+'')
+    filepath=input("Enter the path where you want to save, without quotations: "+'')
     print("Download started in the background, do not close the program.")
     yd.download(filepath)
     print("Download Completed!")
