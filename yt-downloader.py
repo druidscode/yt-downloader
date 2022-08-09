@@ -6,7 +6,7 @@ from sys import argv
 
 # To take user's input of the video URL in the variable 'link'. 
 
-link=input("Enter the URL of the Video : ")
+link=input("Enter the Video URL : ")
 yt=YouTube(link)
 
 # Before downloading, it's to show user what they're downloading, whether if they have copied the right link or not.
