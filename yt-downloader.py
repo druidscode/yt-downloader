@@ -3,6 +3,7 @@ from os import link
 from pytube import YouTube
 from sys import argv
 import time
+import os
 
 # To take user's input of the video URL in the variable 'link'. 
 link=input("Enter the Video URL : ")
@@ -30,9 +31,11 @@ if yesno=="y":
     yd.download(filepath)
     print("Download Completed! Exiting in 5 seconds")
     time.sleep(5)
+
 elif yesno=="n":
     print("Download Terminated! Exiting in 5 seconds")
     time.sleep(5)
+    
 else:
     print("Please restart the program! Exiting in 5 seconds")
     time.sleep(5)
